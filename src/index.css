@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  box-sizing: border-box;
+  margin:0;
+  font-family: 'Inter', sans-serif;
+}
+h1,h2,h3,p{
+  color: #fff;
+}
+h3{
+  font-size: 16px;
+}
+.container{
+  background: rgba(35, 37, 44, 1);
+  padding: 2em 4em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.cover{
+  background: rgba(26, 27, 33, 1);
+  border-radius: 10px;
+}
+
+/* Profile */
+.profile{
+  text-align: center;
+  padding-bottom: 0.5rem;
+
+}
+.profile img{
+  width: 100%;
+  object-fit: cover;
+  height: 18rem;
+  object-position: 0 5%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.title{
+  font-size: 0.8rem;
+  color: rgba(243, 191, 153, 1);
+  line-height: 1.5rem;
+
+}
+.website{
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+.ctas{
+  display: flex;
+  margin-top: 1rem;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.btn{
+  display: flex;
+  width: 40%;
+  align-items: center;
+  font-size: 0.8rem;
+  padding: 0.4em 0.6em;
+  border:none;
+  border-radius: 5px;
+}
+
+.btn span{
+  margin-left: 0.3rem;
+}
+.btn-email{
+  background: #fff;
+}
+.btn-linkedin{
+  background: rgba(80, 147, 226, 1);
+  color: white;
+}
+/* About // Interest */
+
+.sec-title{
+  margin-top: 1rem;
+  padding: 0.4em 0.6em;
+
+}
+.sec-title h3{
+  line-height: 1.5rem;
+}
+.sec-title p{
+  font-size: 0.7rem;
+  line-height: 1rem;
+  color: rgba(220, 220, 220, 1);
+
+}
+
+/* Footer */
+
+.footer{
+  width: 100%;
+  padding: 0.8rem 2rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  background: #161619;
+  margin-top: 2rem;
+
+}
+.icons{
+  display: flex;
+  justify-content: space-evenly;
 }
